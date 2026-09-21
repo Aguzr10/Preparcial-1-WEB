@@ -24,6 +24,5 @@ yarn-error.log*
 next-env.d.ts
 
 # archivos locales y enunciados
-preparcial_web.pdf
 *.pdf
 .DS_Store

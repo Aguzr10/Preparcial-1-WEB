@@ -24,7 +24,7 @@ export async function generateMetadata({
   if (!hasLocale(lang)) return {}
   const dict = await getDictionary(lang)
   return {
-    title: `${dict.title} | UniAndes`,
+    title: dict.title,
     description: dict.description,
   }
 }

@@ -3,7 +3,7 @@
   "profile": "Profile",
   "home": "Home",
   "title": "Internationalization System (I18N)",
-  "subtitle": "Web Development Pre-exam - UniAndes",
+  "subtitle": "Web Development Pre-exam",
   "description": "This application implements dynamic routing by language prefix, automatic detection via Proxy, and preference persistence.",
   "selectLanguage": "Select language:",
   "currentLanguageLabel": "Active language:",
@@ -20,9 +20,9 @@
     "nameLabel": "Name:",
     "nameValue": "Alejandro Guzmán",
     "courseLabel": "Course:",
-    "courseValue": "Web Development - Semester 6",
-    "universityLabel": "University:",
-    "universityValue": "Universidad de los Andes",
+    "courseValue": "Web Development",
+    "universityLabel": "Program:",
+    "universityValue": "Systems Engineering",
     "preferenceLabel": "Saved preference:",
     "statusLabel": "Persistence status:",
     "statusActive": "Active (NEXT_LOCALE Cookie configured)"
@@ -44,6 +44,6 @@
     "viewOnGithub": "GitHub Repository"
   },
   "footer": {
-    "text": "Web Pre-exam - UniAndes 2026. Configured with Next.js 16 App Router."
+    "text": "Web Development Project - I18N Pre-exam with Next.js 16."
   }
 }

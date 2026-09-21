@@ -3,7 +3,7 @@
   "profile": "Perfil",
   "home": "Inicio",
   "title": "Sistema de Internacionalización (I18N)",
-  "subtitle": "Preparcial de Desarrollo Web - UniAndes",
+  "subtitle": "Preparcial de Desarrollo Web",
   "description": "Esta aplicación implementa enrutamiento dinámico por prefijo de idioma, detección automática mediante Proxy y persistencia de preferencias.",
   "selectLanguage": "Seleccionar idioma:",
   "currentLanguageLabel": "Idioma activo:",
@@ -20,9 +20,9 @@
     "nameLabel": "Nombre:",
     "nameValue": "Alejandro Guzmán",
     "courseLabel": "Materia:",
-    "courseValue": "Desarrollo Web - Semestre 6",
-    "universityLabel": "Universidad:",
-    "universityValue": "Universidad de los Andes",
+    "courseValue": "Desarrollo Web",
+    "universityLabel": "Programa:",
+    "universityValue": "Ingeniería de Sistemas",
     "preferenceLabel": "Preferencia guardada:",
     "statusLabel": "Estado de persistencia:",
     "statusActive": "Activa (Cookie NEXT_LOCALE configurada)"
@@ -44,6 +44,6 @@
     "viewOnGithub": "Repositorio GitHub"
   },
   "footer": {
-    "text": "Preparcial de Web - UniAndes 2026. Proyecto configurado con Next.js 16 App Router."
+    "text": "Proyecto de Desarrollo Web - Preparcial I18N con Next.js 16."
   }
 }
