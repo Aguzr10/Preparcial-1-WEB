@@ -59,28 +59,29 @@ Para entender rapidamente como esta resuelto cada punto del examen:
 ## Estructura de carpetas
 
 ```text
-S7/
-├── preparcial_web.pdf          # Enunciado del preparcial
-├── README.md                   # Esta guia
-└── preparcial/                 # Proyecto Next.js 16
+PREPARCIAL 1 WEB/
+├── preparcial_web.pdf              # Enunciado del preparcial (ignorado por git)
+├── README.md                       # Esta guia
+├── .gitignore                      # Reglas de exclusion de git
+└── preparcial/                     # Proyecto Next.js 16
     ├── app/
     │   ├── [lang]/
-    │   │   ├── layout.tsx      # html lang dinamico y navegacion
-    │   │   ├── page.tsx        # Pagina principal (welcome)
+    │   │   ├── layout.tsx          # html lang dinamico y navegacion
+    │   │   ├── page.tsx            # Pagina principal (welcome)
     │   │   └── profile/
-    │   │       └── page.tsx    # Pagina de perfil (profile)
+    │   │       └── page.tsx        # Pagina de perfil (profile)
     │   ├── api/
     │   │   └── items/
-    │   │       └── route.ts    # Ejemplo didactico de API
-    │   └── globals.css         # Estilos visuales
+    │   │       └── route.ts        # Ejemplo didactico de API
+    │   └── globals.css             # Estilos visuales
     ├── components/
-    │   └── LanguageSwitcher.tsx # Selector interactivo y cookie
+    │   └── LanguageSwitcher.tsx    # Selector interactivo y cookie
     ├── dictionaries/
-    │   ├── es.json             # Diccionario en espanol
-    │   └── en.json             # Diccionario en ingles
+    │   ├── es.json                 # Diccionario en espanol
+    │   └── en.json                 # Diccionario en ingles
     ├── lib/
-    │   └── dictionaries.ts     # Carga asincrona server-only
-    ├── proxy.ts                # Proxy de deteccion y redireccion
+    │   └── dictionaries.ts         # Carga asincrona server-only
+    ├── proxy.ts                    # Proxy de deteccion y redireccion
     ├── package.json
     └── tsconfig.json
 ```
