@@ -52,7 +52,7 @@ export default function LanguageSwitcher({ currentLang, label }: LanguageSwitche
           className={`lang-btn ${currentLang === 'es' ? 'lang-btn-active' : ''}`}
           aria-current={currentLang === 'es' ? 'true' : undefined}
         >
-          🇪🇸 ES
+          ES
         </button>
         <button
           type="button"
@@ -61,7 +61,7 @@ export default function LanguageSwitcher({ currentLang, label }: LanguageSwitche
           className={`lang-btn ${currentLang === 'en' ? 'lang-btn-active' : ''}`}
           aria-current={currentLang === 'en' ? 'true' : undefined}
         >
-          🇺🇸 EN
+          EN
         </button>
       </div>
     </div>

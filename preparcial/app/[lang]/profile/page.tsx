@@ -66,14 +66,14 @@ export default async function ProfilePage({
         <p className="info-label">{dict.profileSection.statusLabel}</p>
         <div style={{ marginTop: '0.5rem' }}>
           <span className="badge-success">
-            ✓ {dict.profileSection.statusActive}
+            {dict.profileSection.statusActive}
           </span>
         </div>
       </div>
 
       <div className="actions-row">
         <Link href={`/${lang}`} className="btn btn-primary">
-          ← {dict.actions.backHome}
+          {dict.actions.backHome}
         </Link>
       </div>
     </section>

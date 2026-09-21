@@ -61,7 +61,7 @@ export default async function RootLayout({
         <header className="navbar">
           <div className="navbar-content">
             <Link href={`/${lang}`} className="brand-title">
-              🌐 {dict.title}
+              {dict.title}
               <span className="brand-badge">i18n</span>
             </Link>
 

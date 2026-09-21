@@ -36,7 +36,7 @@ export default async function HomePage({
         
         <div className="actions-row">
           <Link href={`/${lang}/profile`} className="btn btn-primary">
-            👤 {dict.actions.goToProfile}
+            {dict.actions.goToProfile}
           </Link>
           <a
             href="https://github.com/Aguzr10/Preparcial-1-WEB"
@@ -44,7 +44,7 @@ export default async function HomePage({
             rel="noopener noreferrer"
             className="btn btn-secondary"
           >
-            🐙 {dict.actions.viewOnGithub}
+            {dict.actions.viewOnGithub}
           </a>
         </div>
       </section>
@@ -86,7 +86,7 @@ export default async function HomePage({
             rel="noopener noreferrer"
             className="btn btn-secondary"
           >
-            ⚡ {dict.apiSection.button}
+            {dict.apiSection.button}
           </a>
         </div>
       </section>
